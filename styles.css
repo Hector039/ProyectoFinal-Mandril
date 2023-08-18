@@ -1,0 +1,742 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/*Calendario*/
+#calendar {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  font-family: Arial;
+  font-size: 12px;
+  background-color: lightgrey;
+  border-radius: 10px;
+
+}
+
+.caption {
+  width: 100%;
+  text-align: center;
+  background-color: lightgrey;
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.dia-semana {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #0253a3;
+}
+
+.caption div:nth-child(1) {
+  float: left;
+}
+
+.caption div:nth-child(2) {
+  float: right;
+}
+
+.caption div:nth-child(2) a {
+  cursor: pointer;
+}
+
+
+
+li {
+  list-style: none;
+  text-align: center;
+  padding: 4px;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 100%;
+  padding: 0;
+}
+
+.calendario-body {
+  height: 240px;
+  margin-top: 15px;
+}
+
+#calendar .hoy {
+  background-color: rgb(0, 107, 9);
+  border-radius: 10px;
+}
+
+/*-------------------------------*/
+
+p {
+  margin-bottom: 0 !important;
+}
+
+ol,
+ul {
+  padding-left: 0rem !important;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 170px;
+  filter: invert(100%);
+}
+
+.nav-logo-footer {
+  display: flex;
+  width: 200px;
+  filter: invert(100%);
+}
+
+.nav-contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: white;
+}
+
+body {
+  background-image: url(./img/airport-transfers-banbury-oxfordshire.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 340px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendario-cotizacion {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-salida {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 10px;
+
+}
+
+.inputs-destino {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 10px;
+}
+
+.header-salidas-destinos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: rgb(185, 185, 185);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.seleccion-lugares {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.salidas {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  margin: 5px;
+  background-color: lightgrey;
+  border-radius: 8px;
+}
+
+.destinos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  margin: 5px;
+  background-color: lightgrey;
+  border-radius: 8px;
+}
+
+.texto-seleccion-lugares {
+  text-align: center;
+}
+
+.calendario {
+  text-align: center;
+  width: 317px;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: lightgrey;
+}
+
+h2 {
+  padding: 8px;
+}
+
+.dias {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0;
+  list-style: none;
+}
+
+
+li {
+  text-align: center;
+  padding: 8px;
+}
+
+li:hover {
+  background-color: rgba(128, 128, 128, 0.568);
+  cursor: pointer;
+}
+
+.primer-dia {
+  grid-column-start: 7;
+}
+
+.dia-semana {
+  background: grey;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.form-register {
+  width: 380px;
+  background: rgb(185, 185, 185);
+  padding: 30px;
+  margin: auto;
+  border-radius: 4px;
+  color: white;
+  border-radius: 10px;
+}
+
+.form-register h4 {
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: lightgrey;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #000000;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+
+.info-seleccion {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  padding: 10px;
+  gap: 25px;
+  font-size: 1.2rem;
+  margin-block: 25px;
+  background-color: rgb(185, 185, 185);
+}
+
+.iconify {
+  font-size: 1.8rem;
+}
+
+.calendario-horarios {
+  width: 350px;
+  padding: 3px;
+}
+
+.horarios {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  list-style: none;
+}
+
+.horarios li {
+  background-color: gray;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.horarios li:hover {
+  background-color: rgba(128, 128, 128, 0.568);
+}
+
+.no-dispo {
+  background-color: red !important;
+  border-radius: 10px;
+}
+
+.no-dispo:hover {
+  cursor: not-allowed;
+}
+
+.dia-select {
+  background-color: rgba(128, 128, 128, 0.568) !important;
+  border-radius: 10px;
+}
+
+.reserva-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 317px;
+  height: 110px;
+}
+
+.salida-destino-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  margin: 10px;
+  border-radius: 10px;
+  width: 317px;
+  height: 110px;
+}
+
+.reserva-final {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+.ticket-option {
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+.ticket-tipo:nth-child(odd) {
+  background-color: rgba(185, 185, 185, 0.568);
+}
+
+.ticket-tipo {
+  display: flex;
+  justify-content: space-between;
+  width: 317px;
+  padding: 8px;
+}
+
+.ticket-texto {
+  font-weight: bold;
+}
+
+.total-cotizacion {
+  display: flex;
+  justify-content: space-between;
+  width: 317px;
+  padding: 10px;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#boton-comprar {
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.521);
+  border-style: none;
+  border-radius: 5px;
+}
+
+.boton-comprar:hover {
+  background-color: rgb(128, 128, 128);
+}
+
+.historial {
+  background-color: rgba(185, 185, 185, 0.568);
+  margin: 40px;
+  border-radius: 10px;
+  padding: 15px;
+  width: 350px;
+}
+
+.item-historial {
+  list-style: none;
+}
+
+.contenedor-info-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-uno-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.info-dos-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-uno-footer {
+  display: flex;
+  gap: 15px;
+}
+
+.contenedor-dos-footer {
+  display: flex;
+  gap: 15px;
+}
+
+.contenedor-tres-footer {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  gap: 25px;
+}
+
+.logo-footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.tarjetas-footer {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px 0 20px;
+  justify-content: center;
+}
+
+.visa {
+  font-size: 2.5rem;
+}
+
+.master {
+  font-size: 3rem;
+}
+
+.american {
+  font-size: 2rem;
+}
+
+.paypal {
+  font-size: 2.5rem;
+}
+
+.tarjetas-uno {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.tarjetas-dos {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+/*Inicio estilos del modal*/
+h2 {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 19px;
+  font-size: 1.2rem;
+
+}
+
+.container {
+  height: 100%;
+  display: flex;
+}
+
+.half-input-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.half-input-table td:first-of-type {
+  border-right: 10px solid #4488dd;
+  width: 50%;
+}
+
+.order-info {
+  height: 100%;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-items {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  border-top: #4488dd 1px solid;
+  padding-block: 10px;
+}
+
+.info-pasajeros {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-accesorios {
+  display: flex;
+  flex-direction: column;
+}
+
+.selecciones-fecha-lugar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sal-dest {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding-block: 10px;
+}
+
+.dia-hora {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  border-top: #4488dd 1px solid;
+  padding-block: 10px;
+}
+
+.precio-final {
+  text-align: center;
+  border-top: #4488dd 1px solid;
+  padding-block: 10px;
+}
+
+.hora-contenedor {
+  text-align: center;
+  margin-bottom: 25px;
+  border-top: #4488dd 1px solid;
+  padding-block: 10px;
+}
+
+.pay-btn-invisible {
+  visibility: hidden;
+}
+
+.pay-btn {
+  border: none;
+  background: #22b877;
+  line-height: 2em;
+  border-radius: 10px;
+  font-size: 19px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  padding-block: 5px;
+  margin-block: 5px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.pay-btn:hover {
+  background: #22a877;
+  color: #eee;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.total {
+  margin-top: 25px;
+  font-size: 20px;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 30px;
+  right: 27px;
+  left: 35px;
+}
+
+.input-field {
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  margin-top: 3px;
+  line-height: 1.5em;
+  font-size: 20px;
+  font-size: 1.3rem;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  color: #fff;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.credit-info {
+  background: #4488dd;
+  width: 100%;
+  color: white;
+  font-size: .9rem;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.credit-card-image {
+  display: block;
+  max-height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.credit-info-content {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+@media screen and (min-width: 768px) {
+
+  body {
+    margin-top: 170px;
+  }
+
+  .nav-contenedor {
+    flex-direction: row;
+  }
+
+  .nav-footer {
+    flex-direction: row;
+    align-items: start;
+  }
+
+  .nav-logo-footer {
+    width: 155px;
+  }
+
+  .logo-footer {
+    align-self: center;
+  }
+
+  .tarjetas-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calendario-cotizacion {
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  .seleccion-lugares {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reserva-contenedor {
+    flex-direction: row;
+  }
+
+  .ticket-option {
+    margin-top: 0;
+  }
+
+  .inputs-salida {
+    flex-direction: row;
+  }
+
+  .inputs-destino {
+    flex-direction: row;
+  }
+
+  .order-info {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+
+  .credit-info {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .form-register {
+    width: 680px;
+  }
+
+  .needs-validation {
+    display: flex;
+  }
+
+  .form-one {
+    width: 300px;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-right: 5px;
+  }
+}

@@ -1,0 +1,30 @@
+
+    [
+    { "anio": 2023, "mes": "Agosto", "fecha": 31, "dispo": true, "hor1": true, "hor2": false, "hor3": false, "hor4": true, "hor5": false, "hor6": true, "hor7": true, "hor8": false },
+    { "anio": 2023, "mes": "Agosto", "fecha": 25, "dispo": true, "hor1": false, "hor2": true, "hor3": true, "hor4": true, "hor5": true, "hor6": true, "hor7": true, "hor8": true },
+    { "anio": 2023, "mes": "Agosto", "fecha": 11, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Agosto", "fecha": 15, "dispo": true, "hor1": true, "hor2": false, "hor3": false, "hor4": true, "hor5": false, "hor6": true, "hor7": true, "hor8": false },
+    { "anio": 2023, "mes": "Agosto", "fecha": 21, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Agosto", "fecha": 18, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Agosto", "fecha": 8, "dispo": true, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": true },
+    { "anio": 2023, "mes": "Agosto", "fecha": 20, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Agosto", "fecha": 1, "dispo": true, "hor1": false, "hor2": true, "hor3": true, "hor4": true, "hor5": true, "hor6": true, "hor7": true, "hor8": true },
+    { "anio": 2023, "mes": "Agosto", "fecha": 27, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Septiembre", "fecha": 15, "dispo": true, "hor1": true, "hor2": false, "hor3": false, "hor4": true, "hor5": false, "hor6": true, "hor7": true, "hor8": false },
+    { "anio": 2023, "mes": "Septiembre", "fecha": 22, "dispo": true, "hor1": true, "hor2": false, "hor3": true, "hor4": false, "hor5": true, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Septiembre", "fecha": 19, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Septiembre", "fecha": 9, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Septiembre", "fecha": 31, "dispo": true, "hor1": true, "hor2": false, "hor3": false, "hor4": true, "hor5": false, "hor6": true, "hor7": true, "hor8": false },
+    { "anio": 2023, "mes": "Septiembre", "fecha": 2, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Octubre", "fecha": 13, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Octubre", "fecha": 14, "dispo": true, "hor1": true, "hor2": false, "hor3": false, "hor4": true, "hor5": false, "hor6": true, "hor7": true, "hor8": false },
+    { "anio": 2023, "mes": "Octubre", "fecha": 23, "dispo": true, "hor1": true, "hor2": false, "hor3": true, "hor4": false, "hor5": true, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Octubre", "fecha": 28, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2023, "mes": "Octubre", "fecha": 5, "dispo": true, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": true },
+    { "anio": 2024, "mes": "Enero", "fecha": 17, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2024, "mes": "Enero", "fecha": 24, "dispo": true, "hor1": true, "hor2": false, "hor3": false, "hor4": true, "hor5": false, "hor6": true, "hor7": true, "hor8": false },
+    { "anio": 2024, "mes": "Enero", "fecha": 21, "dispo": true, "hor1": true, "hor2": false, "hor3": true, "hor4": false, "hor5": true, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2024, "mes": "Enero", "fecha": 28, "dispo": false, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": false },
+    { "anio": 2024, "mes": "Enero", "fecha": 4, "dispo": true, "hor1": false, "hor2": false, "hor3": false, "hor4": false, "hor5": false, "hor6": false, "hor7": false, "hor8": true }
+    
+]
