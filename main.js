@@ -615,7 +615,7 @@ forms.addEventListener('submit', function (event) {
 
 let modal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
 
-async function guardarFinal() {
+function guardarFinal() {
     botonPagar.innerText = "Procesando pago..."
     const reservaConfirmada = JSON.parse(localStorage.getItem("reserva"));
     console.log(reservaConfirmada);
