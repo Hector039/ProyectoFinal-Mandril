@@ -615,9 +615,10 @@ forms.addEventListener('submit', function (event) {
 
 let modal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
 
-function guardarFinal() {
+async function guardarFinal() {
     botonPagar.innerText = "Procesando pago..."
     const reservaConfirmada = JSON.parse(localStorage.getItem("reserva"));
+    console.log(reservaConfirmada);
     actualizarDia(mesAnio[1], mesAnio[0], parseInt(reservaConfirmada.dia), reservaConfirmada.hora)
     sessionStorage.clear()
 
@@ -632,4 +633,5 @@ function guardarFinal() {
             text: 'Su reserva se Guardó correctamente. Muchas Gracias por su confianza.',
         })
     }, 2000);
+
 }
